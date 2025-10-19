@@ -1,0 +1,31 @@
+{
+  "name": "qa-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require ./steps/**/*.ts --publish-quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lopezandres07/qa-onboarding-credits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Lopezandres07/qa-onboarding-credits/issues"
+  },
+  "homepage": "https://github.com/Lopezandres07/qa-onboarding-credits#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "dotenv": "^17.2.3",
+    "playwright": "^1.55.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.55.1"
+  }
+}

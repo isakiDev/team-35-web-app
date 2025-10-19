@@ -1,0 +1,29 @@
+{
+  "name": "team-35-web-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isakiDev/team-35-web-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isakiDev/team-35-web-app/issues"
+  },
+  "homepage": "https://github.com/isakiDev/team-35-web-app#readme",
+  "description": "",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "husky": "^9.1.7"
+  }
+}
